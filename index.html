@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<title>Madhav Rajpal</title>
+<link rel="shortcut icon" type="image/png" href="./fav.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="./index.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+<body>
+    <div id="loader"></div>
+    
+    <div class="container">
+        <center><div class="prof">
+            <img src="./madhav.jpg" style="border-radius: 50%;width: 150px;height: 150px;margin-top: -15%;margin-bottom: 0px;border: 5px solid  rgb(39, 37, 37);">
+            <p style="font-family: Lexend Deca;color: white;font-size: 40px;margin-bottom: 0px;margin-top: 10px;">Madhav Rajpal</p>
+            <p style="font-family: Lexend Deca;color:darkgray;font-size: 25px;margin-bottom: 20px;margin-top: 10px;">Web Developer</p>
+            
+            <div id="icons">
+                <a href="https://www.instagram.com/madhavrajpall/"><i class="fab fa-instagram" style="margin: 7px" id="ig"></i></a>
+                <a href="mailto:mr.madhavrajpal@gmail.com"><i class="fas fa-envelope-open-text" style=" margin: 7px;"></i></a>
+                <a href="https://www.linkedin.com/in/madhav-rajpal-a048891aa/"><i class="fab fa-linkedin" style=" margin: 7px"></i></a>
+                <a href="https://twitter.com/madhavrajpal10"><i class="fab fa-twitter" style="margin: 7px"></i></a>
+                <a href="https://github.com/madhavrajpal"><i class="fab fa-github" style=" margin: 7px"></i></a>
+            </div>
+            <br>
+            <br>
+            <a href="./touch.html" style="text-decoration: none;">
+            <p style="font-family: Lexend Deca;font-size: 18px;margin-bottom: 20px;margin-top: 10px;" id="touch">Get in Touch</p>
+            </a>
+            <br> 
+             
+        </div></center>
+    </div>
+    <script src="https://kit.fontawesome.com/91d9f33c9a.js" crossorigin="anonymous"></script>  
+    <script>
+        var loader;
+      
+        function loadNow(opacity) {
+          if (opacity <= 0) {
+            displayContent();
+          } else {
+            loader.style.opacity = opacity;
+            window.setTimeout(function () {
+              loadNow(opacity - 0.04);
+            }, 50);
+          }
+        }
+      
+        function displayContent() {
+          loader.style.display = 'none';
+          document.getElementById('content').style.display = 'block';
+        }
+      
+        document.addEventListener("DOMContentLoaded", function () {
+          loader = document.getElementById('loader');
+          loadNow(1.4);
+        });
+      </script>  
+</body>

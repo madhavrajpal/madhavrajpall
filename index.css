@@ -1,0 +1,79 @@
+.prof{
+   background-color: rgb(39, 37, 37);
+   border-radius: 10px;
+   text-align: center; 
+   align-self: center;
+   justify-self: center;
+   max-width: 500px;
+   
+   
+}
+
+body{
+    background-image: url(./bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.container {
+    align-items: center;
+    align-content: center;
+    padding-top: 15%;
+  }
+
+#icons{
+    display: inline-block;
+    
+}
+i:hover{
+    transform: scale(1.8) 
+}
+.fa-instagram{
+    color:white;
+}
+.fa-instagram:hover{
+    color: blueviolet;
+}
+.fa-envelope-open-text{
+    color:white;
+}
+.fa-envelope-open-text:hover{
+    color: red;
+}
+.fa-linkedin{
+    color:white;
+}
+.fa-linkedin:hover{
+    color: rgb(55, 55, 168);
+}
+.fa-twitter{
+    color:white;
+}
+.fa-twitter:hover{
+    color: rgb(33, 209, 209);
+}
+.fa-github{
+    color:white;
+}
+.fa-github:hover{
+    color: green;
+}
+#touch{
+    color: darkgray;
+}
+#touch:hover{
+    color: rgb(219, 85, 85);
+}
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    background: black url(https://thumbs.gfycat.com/AfraidElementaryCowrie-small.gif) no-repeat center center ;
+    
+    
+    
+  }
+
